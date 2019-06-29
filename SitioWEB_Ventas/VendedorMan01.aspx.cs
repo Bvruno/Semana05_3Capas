@@ -103,7 +103,8 @@ public partial class VendedorMan01 : System.Web.UI.Page
             }
             catch (Exception ex)
             {
-                throw new Exception("Error"+ex);
+                lblMensaje.Text = ex.Message;
+                mpeMensaje.Show();
             }
         }
 
@@ -132,7 +133,8 @@ public partial class VendedorMan01 : System.Web.UI.Page
             }
             catch (Exception ex)
             {
-                throw new Exception("Error" + ex);
+                lblError2.Text = ex.Message;
+                mpActualizar.Show();
             }
         }
     }
@@ -170,7 +172,7 @@ public partial class VendedorMan01 : System.Web.UI.Page
         }
         catch (Exception ex)
         {
-            lblError.Text = ex.Message;
+            lblError2.Text = ex.Message;
             mpActualizar.Show();
         }
     }

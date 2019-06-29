@@ -12,7 +12,8 @@
         <br />
         Matenimiento de Vendedores</p>
     <p>
-        &nbsp;</p>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Mantenimientos/Mantenimientos.aspx">MANTENIMIENTO</asp:HyperLink>
+    </p>
     <p>
         <asp:Button ID="btnNuevo" runat="server" Text="Nuevo Vendedor" OnClick="btnNuevo_Click" />
     </p>
@@ -211,7 +212,7 @@
                          </tr>
                         <tr>
                             <td>
-                                <asp:Label ID="Label13" runat="server" Text=".." cssClass="labelContenido"></asp:Label>
+                                <asp:Label ID="lblError2" runat="server" Text=".." cssClass="labelContenido"></asp:Label>
                             </td>
                         </tr>
                     </table> 
@@ -227,4 +228,5 @@
                 </asp:Panel> 
 
 </asp:Content>
+
 
