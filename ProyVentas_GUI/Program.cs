@@ -16,7 +16,7 @@ namespace ProyVentas_GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmConsFarturasCliente());
+            Application.Run(new VendedorMan01());
         }
     }
 }
